@@ -65,7 +65,7 @@ const thebe_selector_output = ".output, .cell_output"
     <link rel="shortcut icon" href="../../_static/favicon.ico"/>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Interior Finishings" href="../50-interior/index.html" />
+    <link rel="next" title="Backup Heating" href="../35-backup-heating/index.html" />
     <link rel="prev" title="Insulation" href="../20-insulation/index.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
@@ -164,6 +164,8 @@ const thebe_selector_output = ".output, .cell_output"
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">About to Build</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../../A/01-intro/index.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../A/02-estimate/index.html">Estimate</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../A/02-estimate/estimate.html">Estimate Notebook</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../A/02-site/index.html">Site Preparation</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../A/03-plan-design/index.html">Planning and Design</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../A/04-clearing/index.html">Clearing</a></li>
@@ -178,11 +180,17 @@ const thebe_selector_output = ".output, .cell_output"
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Building</span></p>
 <ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../01-intro/index.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../02-new/index.html">Current Considerations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../03-foundation/index.html">Foundation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../04-framing/index.html">Framing</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../05-roofing/index.html">Roofing</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../10-exterior/index.html">Exterior Finishings</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../15-wrap/index.html">Housewrap</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../20-insulation/index.html">Insulation</a></li>
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">Heating and Cooling</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../35-backup-heating/index.html">Backup Heating</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../40-water-heating/index.html">Water Heating</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../50-interior/index.html">Interior Finishings</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../80-plumbing/index.html">Plumbing</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../85-electrical/index.html">Electrical</a></li>
@@ -374,7 +382,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
 </div></div>
       
     </div>
@@ -390,6 +400,19 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#splits-and-minisplits">Splits and MiniSplits</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#mr-cool-diy-36k-btu">⭐ Mr. Cool DIY 36k BTU ⭐</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#denali-35k-btu-230v">Denali 35k BTU 230v</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#mini-split-and-split-manufacturers">Mini-Split and Split Manufacturers</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#radiant-in-floor-heating">Radiant In-Floor Heating</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#building-america">Building America</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -401,6 +424,70 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="heating-and-cooling">
 <h1>Heating and Cooling<a class="headerlink" href="#heating-and-cooling" title="Permalink to this heading">#</a></h1>
+<p>Heating systems</p>
+<p>Choose energy-efficient heating systems such as heat pumps, hydronic heating, or high-efficiency furnaces.
+In-floor radiant heating can be a good choice for northern climates, as it provides even, comfortable heat distribution.</p>
+<p>Ventilation</p>
+<p>Proper ventilation is essential for maintaining good indoor air quality. Use a heat recovery ventilator (HRV) or energy recovery ventilator (ERV) to exchange stale indoor air with fresh outdoor air while minimizing heat loss.</p>
+<section id="splits-and-minisplits">
+<h2>Splits and MiniSplits<a class="headerlink" href="#splits-and-minisplits" title="Permalink to this heading">#</a></h2>
+<p>These systems consist of an outdoor compressor/condenser unit
+and one or more indoor air-handling units (also known as evaporators) connected by refrigerant lines and electrical wiring.</p>
+<p>The indoor units are mounted on the wall or ceiling,
+and each unit can be controlled independently to
+maintain the desired temperature in its designated zone.</p>
+<p>Some advantages of using ductless mini-splits include:</p>
+<p>Energy efficiency: Ductless mini-splits can be more energy-efficient compared to traditional forced-air systems with ductwork, as there is no heat loss through the ducts. They also use inverter technology, which allows them to adjust their output based on the heating or cooling demand, leading to energy savings.</p>
+<p>Space-saving: Since they do not require ductwork, mini-splits are ideal for homes with limited space, or for retrofitting older homes that were not originally designed to accommodate ducts.</p>
+<p>Flexibility: Mini-split systems provide zoned temperature control, allowing you to set different temperatures for different areas of the house. This can improve overall comfort and energy efficiency.</p>
+<p>Easy installation: Installing ductless mini-splits is generally easier and less intrusive than installing a ducted system, as it only requires a small hole in the wall.</p>
+<p>No ductwork:  You can go without ductwork if you use ductless mini-split systems for heating and cooling.</p>
+</section>
+<section id="mr-cool-diy-36k-btu">
+<h2>⭐ Mr. Cool DIY 36k BTU ⭐<a class="headerlink" href="#mr-cool-diy-36k-btu" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Works with Alexa, Google</p></li>
+<li><p>1,500 sq ft area</p></li>
+</ul>
+<p><a class="reference external" href="https://www.menards.com/main/heating-cooling/air-conditioners-accessories/mrcool-reg-diy-36-000-btu-230-volt-mini-split-air-conditioner/diy-36-hp-wm-230c25/p-1642874265235366-c-1497103338431.htm?tid=53324b58-ef28-48bb-bb9e-7af0663b9edc&amp;amp;ipos=1&amp;amp;exp=false">https://www.menards.com/main/heating-cooling/air-conditioners-accessories/mrcool-reg-diy-36-000-btu-230-volt-mini-split-air-conditioner/diy-36-hp-wm-230c25/p-1642874265235366-c-1497103338431.htm?tid=53324b58-ef28-48bb-bb9e-7af0663b9edc&amp;ipos=1&amp;exp=false</a></p>
+<p>Mounting Bracket</p>
+<p><a class="reference external" href="https://www.menards.com/main/heating-cooling/air-conditioners-accessories/mrcool-mounting-bracket-for-ductless-mini-split-condenser-24k-36k/mb440/p-1556778754021-c-1497103338431.htm">https://www.menards.com/main/heating-cooling/air-conditioners-accessories/mrcool-mounting-bracket-for-ductless-mini-split-condenser-24k-36k/mb440/p-1556778754021-c-1497103338431.htm</a></p>
+</section>
+<section id="denali-35k-btu-230v">
+<h2>Denali 35k BTU 230v<a class="headerlink" href="#denali-35k-btu-230v" title="Permalink to this heading">#</a></h2>
+<p><a class="reference external" href="https://www.menards.com/main/heating-cooling/air-conditioners-accessories/denali-aire-36-000-btu-230-voltmini-split-air-conditioner/dnmshqc36/p-1841405561150194.htm">https://www.menards.com/main/heating-cooling/air-conditioners-accessories/denali-aire-36-000-btu-230-voltmini-split-air-conditioner/dnmshqc36/p-1841405561150194.htm</a></p>
+</section>
+<section id="mini-split-and-split-manufacturers">
+<h2>Mini-Split and Split Manufacturers<a class="headerlink" href="#mini-split-and-split-manufacturers" title="Permalink to this heading">#</a></h2>
+<p>There are many manufacturers of mini-split and split air conditioning systems, each with their own strengths and weaknesses. Here are some of the top manufacturers to consider:</p>
+<p>Fujitsu: Fujitsu is a Japanese company that produces a wide range of high-quality mini-split and split air conditioning systems. Their products are known for their reliability, energy efficiency, and advanced features such as Wi-Fi connectivity and zoning capabilities.</p>
+<p>Mitsubishi Electric: Mitsubishi Electric is a well-known brand in the HVAC industry, producing a variety of mini-split and split air conditioning systems. Their products are known for their high efficiency, quiet operation, and advanced features such as multi-zone capabilities and air purification.</p>
+<p>Daikin: Daikin is a global leader in the HVAC industry, producing a wide range of mini-split and split air conditioning systems. Their products are known for their high efficiency, advanced features such as Wi-Fi connectivity and voice control, and durability.</p>
+<p>LG: LG is a leading manufacturer of mini-split and split air conditioning systems, producing a variety of models with advanced features such as Wi-Fi connectivity and voice control. Their products are known for their energy efficiency and quiet operation.</p>
+<p>Carrier: Carrier is a well-known brand in the HVAC industry, producing a variety of mini-split and split air conditioning systems. Their products are known for their reliability, advanced features such as Wi-Fi connectivity and smart thermostats, and compatibility with smart home systems.</p>
+<p>Denali: Denali mini-split systems are known for their high efficiency, advanced features, and affordability. They are designed for residential and commercial applications and are available in a variety of sizes and configurations to meet different cooling and heating needs. Denali mini-split systems use inverter technology, which allows them to adjust the speed of the compressor to match the cooling or heating demand of the space. This results in energy savings and more precise temperature control.</p>
+</section>
+<section id="radiant-in-floor-heating">
+<h2>Radiant In-Floor Heating<a class="headerlink" href="#radiant-in-floor-heating" title="Permalink to this heading">#</a></h2>
+<p>Radiant in-floor heating systems can provide a comfortable and energy-efficient way to heat a home, but they also have some disadvantages, particularly in very cold climates. Here are a few of those disadvantages:</p>
+<p>Slow response time</p>
+<p>Radiant in-floor heating systems have a slower response time compared to forced-air heating systems. The thermal mass of the concrete or other flooring materials takes time to heat up, which can be problematic when the temperature drops suddenly, and quick heating is needed.</p>
+<p>Insulation requirements</p>
+<p>To prevent heat loss and ensure efficient operation, radiant in-floor heating systems require proper insulation beneath the floor. This adds to the complexity and cost of installation. In very cold climates, the insulation requirements might be more extensive to prevent excessive heat loss to the ground.</p>
+<p>Initial installation cost</p>
+<p>Radiant in-floor heating systems can be more expensive to install than traditional forced-air systems. This higher upfront cost can be a deterrent for some homeowners, particularly in colder climates.</p>
+<p>Power Outages</p>
+<p>If the power goes out, the heating system will not function, and the pipes carrying the hot water can potentially freeze.</p>
+<p>If the system is not properly installed or insulated, freezing pipes can cause damage and may require expensive repairs.
+If the system is installed correctly and proper precautions are taken, the risk of frozen pipes can be minimized.</p>
+<p>One way to reduce the risk of frozen pipes is to install a backup power source, such as a generator or battery backup system, that can keep the heating system running in the event of a power outage.
+Additionally, the system can be designed to allow for automatic draining of the pipes in the event of a power outage or other emergency.</p>
+</section>
+<section id="building-america">
+<h2>Building America<a class="headerlink" href="#building-america" title="Permalink to this heading">#</a></h2>
+<p>Fact Sheet - heating and cooling choices that save money, increase  comfort and efficiency</p>
+<p>-<a class="reference external" href="http://www1.eere.energy.gov/library/asset_handler.aspx?src=https://www1.eere.energy.gov/buildings/publications/pdfs/building_america/26459.pdf&amp;id=3420">Heating and Cooling Equipment Selection. Office of Building Technology, State and Community Programs (BTS) Technology Fact Sheet </a></p>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -444,11 +531,11 @@ document.write(`
       </div>
     </a>
     <a class="right-next"
-       href="../50-interior/index.html"
+       href="../35-backup-heating/index.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Interior Finishings</p>
+        <p class="prev-next-title">Backup Heating</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -461,6 +548,25 @@ document.write(`
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#splits-and-minisplits">Splits and MiniSplits</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#mr-cool-diy-36k-btu">⭐ Mr. Cool DIY 36k BTU ⭐</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#denali-35k-btu-230v">Denali 35k BTU 230v</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#mini-split-and-split-manufacturers">Mini-Split and Split Manufacturers</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#radiant-in-floor-heating">Radiant In-Floor Heating</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#building-america">Building America</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>

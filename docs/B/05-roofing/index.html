@@ -66,7 +66,7 @@ const thebe_selector_output = ".output, .cell_output"
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
     <link rel="next" title="Exterior Finishings" href="../10-exterior/index.html" />
-    <link rel="prev" title="Well" href="../../A/90-well/index.html" />
+    <link rel="prev" title="Framing" href="../04-framing/index.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -164,6 +164,8 @@ const thebe_selector_output = ".output, .cell_output"
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">About to Build</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../../A/01-intro/index.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../A/02-estimate/index.html">Estimate</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../A/02-estimate/estimate.html">Estimate Notebook</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../A/02-site/index.html">Site Preparation</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../A/03-plan-design/index.html">Planning and Design</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../A/04-clearing/index.html">Clearing</a></li>
@@ -178,11 +180,17 @@ const thebe_selector_output = ".output, .cell_output"
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Building</span></p>
 <ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../01-intro/index.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../02-new/index.html">Current Considerations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../03-foundation/index.html">Foundation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../04-framing/index.html">Framing</a></li>
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">Roofing</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../10-exterior/index.html">Exterior Finishings</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../15-wrap/index.html">Housewrap</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../20-insulation/index.html">Insulation</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../30-heating-cooling/index.html">Heating and Cooling</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../35-backup-heating/index.html">Backup Heating</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../40-water-heating/index.html">Water Heating</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../50-interior/index.html">Interior Finishings</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../80-plumbing/index.html">Plumbing</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../85-electrical/index.html">Electrical</a></li>
@@ -374,7 +382,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
 </div></div>
       
     </div>
@@ -390,6 +400,16 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#mn-residential-code-trusses">MN Residential Code - Trusses</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#roof-pitch">Roof Pitch</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#material-selection">Material Selection</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -401,6 +421,27 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="roofing">
 <h1>Roofing<a class="headerlink" href="#roofing" title="Permalink to this heading">#</a></h1>
+<section id="mn-residential-code-trusses">
+<h2>MN Residential Code - Trusses<a class="headerlink" href="#mn-residential-code-trusses" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://codes.iccsafe.org/content/MNIFGMNRC2020P1/chapter-6-framing#MNIFGMNRC2020P1_PtIII_Ch06_SecTRUSSES">Trusses</a></p></li>
+</ul>
+</section>
+<section id="roof-pitch">
+<h2>Roof Pitch<a class="headerlink" href="#roof-pitch" title="Permalink to this heading">#</a></h2>
+<p>A steeper roof pitch is preferable in northern climates as it allows for better snow shedding and reduces the likelihood of ice dams. The recommended roof pitch for these areas is at least 6:12, meaning the roof rises 6 inches for every 12 inches of horizontal run. Higher pitches, such as 9:12 or 12:12, can offer even better performance in heavy snow regions.</p>
+</section>
+<section id="material-selection">
+<h2>Material Selection<a class="headerlink" href="#material-selection" title="Permalink to this heading">#</a></h2>
+<p>Selecting the right roof material is crucial for durability and energy efficiency.</p>
+<p>The most suitable materials for northern climates are:</p>
+<p>Metal Roofing</p>
+<p>Metal roofs are durable, lightweight, and have excellent snow shedding properties. They are also energy-efficient, as they can reflect solar heat in the summer and provide a good thermal barrier in the winter.</p>
+<p>Asphalt Shingles</p>
+<p>Asphalt shingles are a popular choice due to their affordability and easy installation. Choose shingles designed for cold climates, with a high wind and impact resistance rating.</p>
+<p>Composite Shingles</p>
+<p>Composite shingles, made from a blend of asphalt, fiberglass, and recycled materials, are durable and environmentally friendly. These shingles often have enhanced resistance to wind, impact, and UV degradation, making them well-suited for northern climates.</p>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -435,12 +476,12 @@ document.write(`
     <div class="footer-article-item"><!-- Previous / next buttons -->
 <div class="prev-next-area">
     <a class="left-prev"
-       href="../../A/90-well/index.html"
+       href="../04-framing/index.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Well</p>
+        <p class="prev-next-title">Framing</p>
       </div>
     </a>
     <a class="right-next"
@@ -461,6 +502,22 @@ document.write(`
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#mn-residential-code-trusses">MN Residential Code - Trusses</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#roof-pitch">Roof Pitch</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#material-selection">Material Selection</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>

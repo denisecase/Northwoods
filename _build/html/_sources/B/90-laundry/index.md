@@ -1,4 +1,0 @@
-# Laundry Room
-
-
-

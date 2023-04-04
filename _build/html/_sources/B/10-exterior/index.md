@@ -1,2 +1,0 @@
-# Exterior Finishings
-

@@ -1,2 +1,0 @@
-# Heating and Cooling
-

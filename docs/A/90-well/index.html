@@ -61,11 +61,13 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'A/90-well/index';</script>
     <link rel="shortcut icon" href="../../_static/favicon.ico"/>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Roofing" href="../../B/05-roofing/index.html" />
+    <link rel="next" title="Introduction" href="../../B/01-intro/index.html" />
     <link rel="prev" title="Dock" href="../80-dock/index.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
@@ -164,6 +166,8 @@ const thebe_selector_output = ".output, .cell_output"
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">About to Build</span></p>
 <ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../01-intro/index.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../02-estimate/index.html">Estimate</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../02-estimate/estimate.html">Estimate Notebook</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../02-site/index.html">Site Preparation</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../03-plan-design/index.html">Planning and Design</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../04-clearing/index.html">Clearing</a></li>
@@ -178,11 +182,17 @@ const thebe_selector_output = ".output, .cell_output"
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Building</span></p>
 <ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../../B/01-intro/index.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../B/02-new/index.html">Current Considerations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../B/03-foundation/index.html">Foundation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../B/04-framing/index.html">Framing</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../B/05-roofing/index.html">Roofing</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../B/10-exterior/index.html">Exterior Finishings</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../B/15-wrap/index.html">Housewrap</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../B/20-insulation/index.html">Insulation</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../B/30-heating-cooling/index.html">Heating and Cooling</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../B/35-backup-heating/index.html">Backup Heating</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../B/40-water-heating/index.html">Water Heating</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../B/50-interior/index.html">Interior Finishings</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../B/80-plumbing/index.html">Plumbing</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../B/85-electrical/index.html">Electrical</a></li>
@@ -374,7 +384,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
 </div></div>
       
     </div>
@@ -390,6 +402,16 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#well-pump">Well pump</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#location-do-not-drive-over-lines">Location - Do Not Drive Over Lines</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#costs">Costs</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -401,6 +423,46 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="well">
 <h1>Well<a class="headerlink" href="#well" title="Permalink to this heading">#</a></h1>
+<section id="well-pump">
+<h2>Well pump<a class="headerlink" href="#well-pump" title="Permalink to this heading">#</a></h2>
+<p>A well pump is used to pump water from the well to the home.
+It is important to ensure that the pump is properly sized for the home’s needs and is located in a dry, well-ventilated area to prevent damage from moisture and humidity.</p>
+</section>
+<section id="location-do-not-drive-over-lines">
+<h2>Location - Do Not Drive Over Lines<a class="headerlink" href="#location-do-not-drive-over-lines" title="Permalink to this heading">#</a></h2>
+<p>Driving over a well line in icy climates is generally not recommended, as it can cause damage to the line and potentially compromise the integrity of the well.</p>
+<p>The well line is typically buried underground, and if it is driven over with heavy vehicles or equipment, it can cause the line to shift or break, which can lead to leaks, reduced water pressure, or contamination of the well water.</p>
+<p>Driving over the well line can make it difficult to access the well for maintenance or repairs,
+as the area around the well may become damaged or unstable.</p>
+<p>To prevent damage to the well line in icy climates, it’s important to take steps to protect it.</p>
+<p>This can include:</p>
+<ol class="arabic simple">
+<li><p>Marking the location of the well line so that it is easily visible and can be avoided when driving or using heavy equipment.</p></li>
+<li><p>Adding additional insulation around the well line to protect it from freezing and prevent damage from frost heaves.</p></li>
+<li><p>Covering the well line with a protective covering, such as a durable plastic pipe or conduit, to protect it from damage.</p></li>
+<li><p>Installing a frost-free hydrant or other type of above-ground water supply to provide water access without the need to drive over the well line.</p></li>
+</ol>
+</section>
+<section id="costs">
+<h2>Costs<a class="headerlink" href="#costs" title="Permalink to this heading">#</a></h2>
+<p>The cost to build a well in a cold climate that may be 300 feet deep and needs to be protected from freezing will depend on several factors, including the location, geology, and specific needs of the well.</p>
+<p>Here are some estimated costs to consider.</p>
+<p>Drilling Costs</p>
+<p>The cost of drilling a 300-foot well can range from <span class="math notranslate nohighlight">\(15,000 to \)</span>30,000, depending on the geological conditions and the drilling method used.</p>
+<p>Additionally, if the well is located in a remote area, the cost may be higher due to the need to transport equipment and materials.</p>
+<p>Casing and Pump Costs</p>
+<p>Once the well is drilled, it will need to be cased with steel or PVC pipe to protect the well and ensure that water flows into the well properly.
+The cost of casing and pump equipment can range from <span class="math notranslate nohighlight">\(2,000 to \)</span>10,000, depending on the type and quality of equipment used.</p>
+<p>Well House Construction</p>
+<p>To protect the well from freezing temperatures, it may be necessary to construct a well house or enclosure.
+The cost of building a well house can range from <span class="math notranslate nohighlight">\(2,000 to \)</span>10,000, depending on the size, materials, and complexity of the design.</p>
+<p>Electrical and Plumbing Costs</p>
+<p>The cost of electrical and plumbing work to connect the well to the home or other buildings can range from <span class="math notranslate nohighlight">\(2,000 to \)</span>5,000, depending on the distance from the well to the buildings and the complexity of the installation.</p>
+<p>Total</p>
+<p>The total cost to build a well in a cold climate that may be 300 feet deep and needs to be protected from freezing can range from <span class="math notranslate nohighlight">\(20,000 to \)</span>55,000,
+depending on the specific needs of the well and the location.</p>
+<p>Work with a licensed and experienced well contractor to ensure the well is designed and constructed properly and meets all safety and environmental regulations.</p>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -444,11 +506,11 @@ document.write(`
       </div>
     </a>
     <a class="right-next"
-       href="../../B/05-roofing/index.html"
+       href="../../B/01-intro/index.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Roofing</p>
+        <p class="prev-next-title">Introduction</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -461,6 +523,22 @@ document.write(`
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#well-pump">Well pump</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#location-do-not-drive-over-lines">Location - Do Not Drive Over Lines</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#costs">Costs</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>

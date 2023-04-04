@@ -10,6 +10,8 @@ parts:
 - caption: About to Build
   chapters:
   - file: A/01-intro/index
+  - file: A/02-estimate/index
+  - file: A/02-estimate/estimate
   - file: A/02-site/index
   - file: A/03-plan-design/index
   - file: A/04-clearing/index
@@ -23,13 +25,17 @@ parts:
   - file: A/90-well/index
 - caption: Building
   chapters:
-  - file: B/01-foundation/index
-  - file: B/02-framing/index
+  - file: B/01-intro/index
+  - file: B/02-new/index
+  - file: B/03-foundation/index
+  - file: B/04-framing/index
   - file: B/05-roofing/index
   - file: B/10-exterior/index
   - file: B/15-wrap/index
   - file: B/20-insulation/index
   - file: B/30-heating-cooling/index
+  - file: B/35-backup-heating/index
+  - file: B/40-water-heating/index
   - file: B/50-interior/index
   - file: B/80-plumbing/index
   - file: B/85-electrical/index
@@ -42,6 +48,7 @@ parts:
   - file: C/30-deck/index
   - file: C/40-balcony/index
   - file: C/50-landscaping/index
+  - file: C/60-tower/index
 - caption: Down by the Water
   chapters:
   - file: D/01-dock/index

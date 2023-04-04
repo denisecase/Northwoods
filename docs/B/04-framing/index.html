@@ -65,6 +65,8 @@ const thebe_selector_output = ".output, .cell_output"
     <link rel="shortcut icon" href="../../_static/favicon.ico"/>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Roofing" href="../05-roofing/index.html" />
+    <link rel="prev" title="Foundation" href="../03-foundation/index.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -162,6 +164,8 @@ const thebe_selector_output = ".output, .cell_output"
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">About to Build</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../../A/01-intro/index.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../A/02-estimate/index.html">Estimate</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../A/02-estimate/estimate.html">Estimate Notebook</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../A/02-site/index.html">Site Preparation</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../A/03-plan-design/index.html">Planning and Design</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../A/04-clearing/index.html">Clearing</a></li>
@@ -175,12 +179,18 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l1"><a class="reference internal" href="../../A/90-well/index.html">Well</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Building</span></p>
-<ul class="nav bd-sidenav">
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../01-intro/index.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../02-new/index.html">Current Considerations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../03-foundation/index.html">Foundation</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Framing</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../05-roofing/index.html">Roofing</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../10-exterior/index.html">Exterior Finishings</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../15-wrap/index.html">Housewrap</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../20-insulation/index.html">Insulation</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../30-heating-cooling/index.html">Heating and Cooling</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../35-backup-heating/index.html">Backup Heating</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../40-water-heating/index.html">Water Heating</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../50-interior/index.html">Interior Finishings</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../80-plumbing/index.html">Plumbing</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../85-electrical/index.html">Electrical</a></li>
@@ -372,7 +382,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
 </div></div>
       
     </div>
@@ -388,6 +400,17 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#mn-residential-code">MN Residential Code</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#wood-vs-steel-framing">Wood vs Steel Framing</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#steel-framing">Steel Framing</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#wood-most-common">Wood Most Common</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -399,6 +422,51 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="framing">
 <h1>Framing<a class="headerlink" href="#framing" title="Permalink to this heading">#</a></h1>
+<section id="mn-residential-code">
+<h2>MN Residential Code<a class="headerlink" href="#mn-residential-code" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://codes.iccsafe.org/content/MNIFGMNRC2020P1/chapter-6-framing">Framing</a></p></li>
+</ul>
+</section>
+<section id="wood-vs-steel-framing">
+<h2>Wood vs Steel Framing<a class="headerlink" href="#wood-vs-steel-framing" title="Permalink to this heading">#</a></h2>
+<p>Wood framing - Pros</p>
+<ol class="arabic simple">
+<li><p>Natural insulator: Wood is a good insulator due to its cellular structure, which helps maintain indoor temperatures and reduces energy consumption for heating.</p></li>
+<li><p>Breathability: Wood framing allows for better air circulation and moisture regulation, reducing the risk of mold and mildew in hot and humid conditions.</p></li>
+<li><p>Easy to work with: Wood is a more forgiving material and can be easily cut and shaped, allowing for more customization in design.</p></li>
+<li><p>Renewable resource: Wood is a sustainable and renewable resource, with a lower carbon footprint compared to steel.</p></li>
+</ol>
+<p>Wood framing - Cons</p>
+<ol class="arabic simple">
+<li><p>Susceptible to moisture damage: In cold/dry climates, condensation can still occur, leading to potential moisture damage and rot in wood framing.</p></li>
+<li><p>Lower strength-to-weight ratio: Wood has a lower strength-to-weight ratio compared to steel, which may require additional support for larger structures or in areas with heavy snow loads.</p></li>
+<li><p>Susceptible to pests: Wood is more susceptible to pests such as termites and rodents, which can cause structural damage.</p></li>
+</ol>
+</section>
+<section id="steel-framing">
+<h2>Steel Framing<a class="headerlink" href="#steel-framing" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://recovery.texas.gov/documents/mitigation/programs/homeowner-programs/resilient-home/steel-frame-floor-plans.pdf">Example floor plans - TX gov</a></p></li>
+</ul>
+<p>Steel framing - Pros</p>
+<ol class="arabic simple">
+<li><p>High strength-to-weight ratio: Steel has a high strength-to-weight ratio, making it suitable for large structures and areas with heavy snow loads.</p></li>
+<li><p>Non-combustible: Steel is non-combustible and does not contribute to the spread of fire.</p></li>
+<li><p>Pest resistant: Steel is resistant to pests such as termites and rodents, reducing the risk of structural damage.</p></li>
+</ol>
+<p>Steel framing - Cons</p>
+<ol class="arabic simple">
+<li><p>Poor insulator: Steel is a poor insulator, which can increase heat loss and energy consumption for heating in cold climates.</p></li>
+<li><p>Corrosion: Steel is susceptible to corrosion due to condensation, which can weaken the structure over time. Proper coatings and insulation are necessary to mitigate this issue.</p></li>
+<li><p>More difficult to work with: Steel framing requires specialized tools and skills, which may increase construction time and costs.</p></li>
+</ol>
+</section>
+<section id="wood-most-common">
+<h2>Wood Most Common<a class="headerlink" href="#wood-most-common" title="Permalink to this heading">#</a></h2>
+<p>Wood framing is still the most popular choice for residential construction across the United States, including Minnesota. The majority of homes built in the U.S. are constructed using wood framing due to its affordability, availability, and familiarity to builders.</p>
+<p>Steel framing has gained some popularity in commercial construction, and its usage in residential construction has been slowly increasing. Some advantages of steel framing include its strength, durability, and resistance to termites and rot. However, steel framing is generally more expensive and less familiar to many builders, which may contribute to its lower adoption rate compared to wood framing.</p>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -432,6 +500,24 @@ document.write(`
   
     <div class="footer-article-item"><!-- Previous / next buttons -->
 <div class="prev-next-area">
+    <a class="left-prev"
+       href="../03-foundation/index.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Foundation</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="../05-roofing/index.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Roofing</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
 </div></div>
   
 </div>
@@ -441,6 +527,23 @@ document.write(`
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#mn-residential-code">MN Residential Code</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#wood-vs-steel-framing">Wood vs Steel Framing</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#steel-framing">Steel Framing</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#wood-most-common">Wood Most Common</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>
