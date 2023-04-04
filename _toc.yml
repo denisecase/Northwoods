@@ -1,0 +1,52 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: index
+parts:
+- caption: Front Matter
+  chapters:
+  - file: _Front/01-introduction
+- caption: About to Build
+  chapters:
+  - file: A/01-intro/index
+  - file: A/02-site/index
+  - file: A/03-plan-design/index
+  - file: A/04-clearing/index
+  - file: A/05-drive/index
+  - file: A/10-shed/index
+  - file: A/20-electricity/index
+  - file: A/30-permits/index
+  - file: A/40-septic/index
+  - file: A/70-paths/index
+  - file: A/80-dock/index
+  - file: A/90-well/index
+- caption: Building
+  chapters:
+  - file: B/01-foundation/index
+  - file: B/02-framing/index
+  - file: B/05-roofing/index
+  - file: B/10-exterior/index
+  - file: B/15-wrap/index
+  - file: B/20-insulation/index
+  - file: B/30-heating-cooling/index
+  - file: B/50-interior/index
+  - file: B/80-plumbing/index
+  - file: B/85-electrical/index
+  - file: B/90-laundry/index
+  - file: B/95-utility-closet/index
+- caption: Close By
+  chapters:
+  - file: C/10-porch/index
+  - file: C/20-patio/index
+  - file: C/30-deck/index
+  - file: C/40-balcony/index
+  - file: C/50-landscaping/index
+- caption: Down by the Water
+  chapters:
+  - file: D/01-dock/index
+  - file: D/02-pump/index
+  - file: D/03-lat/index
+  - file: D/04-shed/index
+  - file: D/05-sauna/index
+  - file: D/20-outside-steps/index
