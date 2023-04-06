@@ -105,7 +105,10 @@ Consult with a USDA-approved lender to determine eligibility and explore loan op
 - [Mann Mortgage](https://vickietuskan.mannmortgage.com/construction-loans/)
 - No DIY
 
+## Energy Efficient Mortgages (EEM)
 
+- [Energy efficient mortgages](https://www.energysage.com/energy-efficiency/financing/ee-mortgages/)
+- Takes anticipated utility bill savings into account when determining maximum monthly payments
 
 ## DIY
 

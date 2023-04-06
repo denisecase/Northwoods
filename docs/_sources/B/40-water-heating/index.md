@@ -1,5 +1,7 @@
 # Water Heating
 
+- [Selecting a new water heater](https://www.energy.gov/energysaver/selecting-new-water-heater)
+
 When it comes to providing hot water for daily hot baths and high-pressure showers, a heat pump water heater or a hybrid water heater may be the best option, as they can provide a continuous supply of hot water while also saving energy and reducing operating costs. 
 
 There are several cost-effective, energy-efficient options for providing hot water in a cold-climate, all-electric home. 

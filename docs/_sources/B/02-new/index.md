@@ -1,4 +1,7 @@
-# Current Considerations
+# Modern Design
+
+- [MN Incentives for Renewables & Efficiency](https://programs.dsireusa.org/system/program/mn)
+- [MN Solar](https://www.energysage.com/local-data/solar-panel-cost/mn/?rc=dsire)
 
 ## Goals
 
